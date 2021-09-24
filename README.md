@@ -38,7 +38,7 @@ Seems comments do not work in table.
 |----------------------------------------|-----------------------------------------------------------|----------------------------------------------------------|
 | relative link, to image in this repo (**this should be preferred, i.e. without `/` at the begining, based on [GitHub doc](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#relative-links-and-image-paths-in-readme-files)**) | `![stopwatch_224x272.bmp](images/stopwatch_224x272.bmp)`  | ![stopwatch_224x272.bmp](images/stopwatch_224x272.bmp) |
 | `/images` instead of `images`, also works | `![stopwatch_224x272.bmp](/images/stopwatch_224x272.bmp)` | ![stopwatch_224x272.bmp](/images/stopwatch_224x272.bmp) |
-| `images` and hyperlink | `[![stopwatch_224x272.bmp](images/stopwatch_224x272.bmp)](https://www.google.com/)` | [![stopwatch_224x272.bmp](images/stopwatch_224x272.bmp)](https://www.google.com/) |
+| `images` and hyperlink (no HTML) | `[![stopwatch_224x272.bmp](images/stopwatch_224x272.bmp)](https://www.google.com/)` | [![stopwatch_224x272.bmp](images/stopwatch_224x272.bmp)](https://www.google.com/) |
 
 # Additional info
 **source**
