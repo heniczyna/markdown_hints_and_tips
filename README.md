@@ -19,6 +19,10 @@
 
 Emoji icons copied from [here](<https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md>)
 
+> **Additional info**
+> * when publishing the repo using GitHub Pages, emoji icons are not rendered properly, you will only see `:memo:` instead of icon
+
+
 # Comments
 Seems comments do not work in table.
 
@@ -32,8 +36,9 @@ Seems comments do not work in table.
 # Images
 | comments                               | source                                                    | output                                                   |
 |----------------------------------------|-----------------------------------------------------------|----------------------------------------------------------|
-| relative link, to image in this repo   | `![stopwatch_224x272.bmp](images/stopwatch_224x272.bmp)`  | ![stopwatch_224x272.bmp](images/stopwatch_224x272.bmp)   |
+| relative link, to image in this repo (**this should be preferred, i.e. without `/` at the begining, based on [GitHub doc](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#relative-links-and-image-paths-in-readme-files)**) | `![stopwatch_224x272.bmp](images/stopwatch_224x272.bmp)`  | ![stopwatch_224x272.bmp](images/stopwatch_224x272.bmp) |
 | `/images` instead of `images`, also works | `![stopwatch_224x272.bmp](/images/stopwatch_224x272.bmp)` | ![stopwatch_224x272.bmp](/images/stopwatch_224x272.bmp) |
+| `images` and hyperlink | `[![stopwatch_224x272.bmp](images/stopwatch_224x272.bmp)](https://www.google.com/)` | [![stopwatch_224x272.bmp](images/stopwatch_224x272.bmp)](https://www.google.com/) |
 
 # Additional info
 **source**
