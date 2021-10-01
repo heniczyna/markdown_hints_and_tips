@@ -98,9 +98,13 @@ and go further.
 The space between the lines when using double `Enter` is to much in this case. Therefore, `<br` is required sometimes. However, I do not know whether this is recommended way or not.
 
 # File names
-* as a code within ` `` ` markups: `/board/pin_mux.h`
-* when creating next markdown document try with `*`: */board/pin_mux.h* and leave the code markups for code?
-* or use italics only with name such as *pin_mux.h* (I have seen that in some GitHub doc) and use code markups when providing also directory such as `/board/pin_mux.h`?
+| comments                                                      | source                                | output                              |
+|---------------------------------------------------------------|---------------------------------------|-------------------------------------|
+| file name without extension (like examples names)             | `*tensorflow_lite_micro_label_image*` | *tensorflow_lite_micro_label_image* |
+| file name with extension                                      | `*flower_model.tflite*`               | *flower_model.tflite*               |
+| path to file name with extension                              | `*/source/labels.h*`                  | */source/labels.h*                  |
+| folder name (with **/** at the beginning, and adding **folder** at the end) | `*/doc* folder`         | */doc* folder                       |
+
 * some suggestions from [SO](<https://meta.stackexchange.com/questions/246900/which-markdown-formatting-should-be-used-for-a-filename-of-code>)
 #### **`hello_world.js`**
 ``` js
@@ -113,8 +117,15 @@ alert("Hello world!");
 > ```
 
 # Hit/choose an option
-* as a code within ` `` ` markups: From `QuickStart Panel` choose `Import`
-* as bold text?: From **QuickStart Panel** choose **Import**
+| comments                                                      | source                                | output                              |
+|---------------------------------------------------------------|---------------------------------------|-------------------------------------|
+|                                               | `from **QuickStart Panel** choose **Import**` | from **QuickStart Panel** choose **Import** |
+
+# Hit keys combination
+| comments                                                      | source                                | output                              |
+|---------------------------------------------------------------|---------------------------------------|-------------------------------------|
+| each key as separate item, and **+** as normal                | with ` `` ` for each item             | `Ctrl`+`F9`                         |
+| with explanation what it does                         | with ` `` ` for each item and `(**Run All**)` | `Ctrl` + `F9` (**Run All**)         |
 
 # Indentation in lists containing the code
 Add indentation to code (3 or 4 spaces, to double-check, make it aligned with *Open* word), to align the code with element of the list. As below, code block is aligned with first element of the list.
